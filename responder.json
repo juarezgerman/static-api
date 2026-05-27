@@ -3,7 +3,22 @@
     "version": "0.1.0",
     "description": "A simple HTTP GET responder for testing purposes.",
     "author": "German Juarez",
+    "conversation_id": "123a45b6-c0c2-5555-8a90-a30cdaafbb48",
     "comando": "RESPONDER",
-    "mensaje": "Hola, soy un BOT. ¿En qué puedo ayudarte?"
+    "comando_param": "USUARIO",
+    "mensaje": "Hola, soy un BOT. ¿En qué puedo ayudarte?",
+    "registro": "WL-010",
+    "custom": {
+        "canal": "whatsapp",
+        "usuario": "5491112345678",
+        "xDOCUMENTO": "987654321",
+        "xNOMBRE": "Juan xxxxxx",
+        "error_code": "",
+        "error_desc": "",
+        "idLlamadaLtz": "123a45b6-c0c2-5555-8a90-a30cdaafbb48"
+    },
+    "llamadaTerminada": false,
+    "intent": "DOCUMENTACION_PEDIDO_INFO",
+    "archivos": [],
+    "_documento": ""
 }
-
