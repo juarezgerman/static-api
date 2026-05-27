@@ -1,0 +1,9 @@
+{
+    "name": "responder",
+    "version": "0.1.0",
+    "description": "A simple HTTP GET responder for testing purposes.",
+    "author": "German Juarez",
+    "comando": "RESPONDER",
+    "mensaje": "Hola, soy un BOT. ¿En qué puedo ayudarte?"
+}
+
