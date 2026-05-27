@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Static API</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 15px;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .example {
+      margin-top: 20px;
+      background: #020617;
+      padding: 10px;
+      border-radius: 6px;
+      font-family: monospace;
+      font-size: 0.9rem;
+    }
+
+    .subtitle {
+      margin-top: 25px;
+      font-weight: bold;
+      color: #e2e8f0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>📦 Static API</h1>
+
+    <p>
+      Este repositorio expone endpoints JSON estáticos utilizando GitHub Pages.
+      Simula una API REST simple (solo GET), ideal para pruebas, mocking de integraciones
+      y prototipos rápidos.
+    </p>
+
+    <div class="card">
+      <div class="subtitle">🌐 Endpoints disponibles</div>
+
+      <ul>
+        <li><a href="responder.json" target="_blank">responder.json</a></li>
+        <li><a href="transferir.json" target="_blank">transferir.json</a></li>
+        <li><a href="adjuntar.json" target="_blank">adjuntar.json</a></li>
+        <li><a href="desconectar.json" target="_blank">desconectar.json</a></li>
+      </ul>
+
+      <div class="subtitle">📁 Ejemplos generales</div>
+
+      <ul>
+        <li><a href="data.json" target="_blank">data.json → OK</a></li>
+        <li><a href="data-error.json" target="_blank">data-error.json → error</a></li>
+        <li><a href="data-timeout.json" target="_blank">data-timeout.json → timeout</a></li>
+        <li><a href="data-notfound.json" target="_blank">data-notfound.json → not found</a></li>
+      </ul>
+
+      <div class="subtitle">⚙️ Ejemplo de uso</div>
+
+      <div class="example">
+curl https://juarezgerman.github.io/static-api/responder.json
+      </div>
+    </div>
+  </div>
+</body>
+</html>
